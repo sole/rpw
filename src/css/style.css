@@ -3,3 +3,24 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+html, body {
+	position: relative;
+	height: 100%;
+}
+
+article {
+	position: relative;
+	/*width: 100%;
+	height: 100%;*/
+	width: 100px;
+	height: 100px;
+}
+
+section {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border: 1px solid red;
+	background: #eee;
+}
